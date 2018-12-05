@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/htr_ekle_bslk_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Başlık"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/htr_ekle_trh_edt"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/htr_ekle_bslk_edt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Tarih"
+        android:inputType="date" />
+
+    <ImageView
+        android:id="@+id/htr_ekle_trh_pckr"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_alignTop="@+id/htr_ekle_trh_edt"
+        android:layout_alignEnd="@+id/htr_ekle_bslk_edt"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_toEndOf="@+id/htr_ekle_trh_edt"
+        android:layout_toRightOf="@+id/htr_ekle_trh_edt"
+        app:srcCompat="@drawable/ic_date_range_black_24dp"
+        android:layout_alignRight="@+id/htr_ekle_bslk_edt"
+        android:layout_marginRight="-1dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/htr_ekle_dty_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/htr_ekle_trh_edt"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Detay"
+        android:inputType="textPersonName" />
+
+
+
+    <Button
+        android:id="@+id/htr_ekle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/htr_ekle_dty_edt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Ekle" />
+</RelativeLayout>

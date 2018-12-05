@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ajanda"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Ajanda" />
+        <item
+            android:id="@+id/nav_dersler"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Dersler" />
+        <item
+            android:id="@+id/nav_dersProgrami"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Ders Programı" />
+    </group>
+
+    <item android:title="Dil">
+        <menu>
+            <item
+                android:id="@+id/nav_tr"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="TR" />
+            <item
+                android:id="@+id/nav_en"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="EN" />
+        </menu>
+    </item>
+</menu>
